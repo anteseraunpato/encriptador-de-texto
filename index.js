@@ -20,7 +20,7 @@ function encriptar() {
     mensajeimg.src = "./img/unpato.png";
     tituloMensaje.textContent = "No hay mensajes";
     parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
-    swal("¡Alto rufián!", "No ingresaste ningún texto", "warning");
+    swal("¡Alto rufián!", "No ingresaste ningún texto", "error");
   }
 }
 
@@ -46,6 +46,6 @@ function desencriptar() {
       mensajeimg.src = "./img/unpato.png";
       tituloMensaje.textContent = "No hay mensajes";
       parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
-      swal("¡Alto rufián!", "No ingresaste ningún texto", "warning");
+      swal("¡Alto rufián!", "No ingresaste ningún texto", "error");
     }
 }
