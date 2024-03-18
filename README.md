@@ -16,4 +16,4 @@ Las "llaves" de encriptación que utiliza el encriptador son las siguientes:
 
 Una de las condiciones era que no se podían utilizar mayúsculas en el texto, por lo que el encriptador transforma de forma automática el texto a minúsculas.  
 
-Cuando se presiona alguno de los botones se muestra una advertencia al usuario para que ingrese su texto.
+Cuando se presiona alguno de los botones y el campo está vacío se muestra una advertencia al usuario para que ingrese su texto.
